@@ -51,6 +51,7 @@ a {
 }
 
 .section-desc {
+  margin-top: 18px;
   color: #575f66;
   font-size: 1.8rem;
   font-weight: 300;
@@ -181,7 +182,7 @@ a {
 }
 
 /*================================================================= SERVICE */
-.service .container {
+.service {
   padding: 170px 0px;
 }
 
@@ -192,8 +193,7 @@ a {
 
 .service__desc {
   width: 468px;
-  margin: 0 auto;
-  margin-top: 18px;
+  margin: 18px auto 0px;
 }
 
 .service__row {
@@ -230,6 +230,7 @@ a {
   background: #2e80ce;
   box-shadow: 0px 8px 16px 0px rgba(40, 155, 222, 0.15);
   color: #fff;
+  transition: 0.3s;
 }
 
 .service__item--icon {
@@ -243,6 +244,7 @@ a {
   justify-content: center;
   align-items: center;
   margin-right: 19px;
+  transition: 0.3s;
 }
 
 .service__item--heading {
@@ -260,4 +262,59 @@ a {
 
 .service-btn {
   margin-top: 55px;
+}
+
+/* =============================================================================WORK */
+.work {
+  padding: 100px 0;
+  background-color: #f6fbff;
+}
+
+.work__desc {
+  width: 468px;
+}
+
+.work__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 70px;
+  gap: 30px;
+}
+
+.work-item {
+  border-radius: 4px;
+  background: #fff;
+  padding: 43px;
+  border: 16px solid #eaf6ff;
+}
+
+.work-item:hover {
+  border: 16px solid #2e80ce;
+  transition: 0.3s;
+  transform: translateY(-16px);
+}
+
+.work-item__heading {
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38;
+  margin-top: 18px;
+}
+
+.work-item__desc {
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+  margin-top: 28px;
+}
+
+.work-item__more {
+  display: inline-block;
+  color: #2e80ce;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-top: 18px;
 }
