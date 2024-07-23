@@ -455,3 +455,43 @@ a {
 .control__btn--next {
   rotate: 180deg;
 }
+
+/*============================================================================== INSTALL */
+
+.install {
+  padding: 180px 0px 85px;
+}
+
+.install__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 75px;
+  border-radius: 4px;
+  background: #2e80ce;
+  height: 427px;
+}
+
+.install__img {
+  bottom: 0px;
+  position: absolute;
+  width: 284px;
+  height: 522px;
+}
+
+.install__heading {
+  width: 489px;
+  color: #fff;
+}
+
+.install__desc {
+  width: 586px;
+  color: #fff;
+}
+
+.install__row {
+  display: flex;
+  margin-top: 38px;
+  column-gap: 28px;
+}
