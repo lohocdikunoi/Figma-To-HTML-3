@@ -15,6 +15,14 @@ body {
   font-family: "Sora", sans-serif;
 }
 /*====================================================== COMMON */
+input,
+button,
+select,
+textarea {
+  font-size: inherit;
+  font-family: inherit;
+}
+
 a {
   text-decoration: none;
 }
@@ -625,4 +633,131 @@ a {
 
 .appointment__btn {
   margin-top: 38px;
+}
+
+/*================================================================================== FOOTER */
+
+.footer {
+  margin-top: 170px;
+  background: var(--header-bgc);
+  padding-top: 100px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 0.4fr) 1fr;
+  column-gap: 78px;
+}
+
+.footer__desc {
+  color: #a9b3bb;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-top: 21px;
+}
+
+.footer__heading {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+
+.footer__link {
+  display: block;
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__list {
+  margin-bottom: 28px;
+}
+
+.footer__social {
+  display: flex;
+  column-gap: 10px;
+}
+
+.footer__social--icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2e80ce;
+  transition: 0.3s;
+  margin-bottom: 28px;
+}
+
+.footer__social--icon:hover {
+  background: #2e80ce;
+  color: #fff;
+}
+
+.footer-form {
+  margin-top: 10px;
+  display: flex;
+  column-gap: 12px;
+}
+
+.footer-form__input {
+  width: 212px;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.footer-form__input::placeholder {
+  color: #9ca8b1;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  padding: 10px;
+}
+
+.footer-form__btn {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.86;
+  width: 108px;
+  height: 46px;
+  border-radius: 4px;
+  border: none;
+  background: #2e80ce;
+  cursor: pointer;
+}
+
+.footer-form__btn:hover {
+  opacity: 0.9;
+}
+
+.footer-desc__copyright {
+  color: #aab3ba;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  margin-top: 28px;
+  padding-bottom: 42px;
+}
+
+.footer__copyright {
+  border-top: 1px solid #406181;
 }
