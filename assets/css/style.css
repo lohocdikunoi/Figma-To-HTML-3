@@ -105,6 +105,10 @@ a {
   display: flex;
 }
 
+.navbar__item:hover {
+  text-shadow: 1px 0 0 #fff;
+}
+
 .header .header-top .header__action--login,
 .header .header-top .navbar__link {
   padding: 8px 21px;
